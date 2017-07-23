@@ -1,5 +1,5 @@
 const tinyreq = require("tinyreq");
-const cheerio = require("cheero");
+const cheerio = require("cheerio");
 
 request("http://allrecipes.com/", function (err, body) {
     if (err) {
